@@ -19,21 +19,25 @@ export default function NewsList() {
 
   <!-- Cột phải 40% trên desktop -->
   <div class="flex-1 md:basis-1/4 flex flex-col gap-4 overflow-y-auto">
-  <div class="text-left title-txt">
-    Tin nổi bật
-  </div>
-        <div class="border-b-2 my-4">
-        </div>
     <div>
-      ${Tag03()}
+      <div class="text-left title-txt">
+        Tin nổi bật
+      </div>
+    
+      <div class="border-[#2bbef9] border-t-[2px] my-4">
+      </div>
+    
+      <div>
+        ${Tag03()}
+      </div>
     </div>
-
+    
     <div>
       <div class="text-left title-txt">
         Tạp chí có nhiều lượt đọc
       </div> 
       
-      <div class="border-b-2 my-4">
+      <div class="my-4 border-[#2bbef9] border-b-[2px]">
       </div>
       
       <div>

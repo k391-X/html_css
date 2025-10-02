@@ -65,8 +65,8 @@ export default function tag_03() {
   displayItems = displayItems.slice(0, limit);
 
   return `
-    <main class="p-6">
-      <div class="border-[#2bbef9] border-t-[2px] p-4 shadow-figma-card">
+    <main class="px-4">
+      <div class="p-4 shadow-figma-card">
         ${displayItems.map((item) => NewsItem02(item)).join("")}
       </div>
     </main>

@@ -83,8 +83,10 @@ export default function tag_04() {
   displayItems = displayItems.slice(0, limit);
 
   return `
-    <main class="p-6">
-      ${displayItems.map((item) => NewsItem03(item)).join("")}
+    <main class="px-4">
+      <div class="p-4 shadow-figma-card">
+        ${displayItems.map((item) => NewsItem03(item)).join("")}
+      </div>
     </main>
   `;
 }
