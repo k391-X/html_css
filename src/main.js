@@ -1,6 +1,7 @@
 import "./style.css";
+import "./custom.css";
 import Layout from "./layout/Layout.js";
-import NewsList from "./pages/NewsList.js";
+import NewsList from "./pages/NewsList/index.js";
 import NewsDetail from "./pages/NewsDetail.js";
 
 const app = document.getElementById("app");

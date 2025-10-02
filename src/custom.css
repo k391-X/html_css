@@ -1,0 +1,46 @@
+.title-txt {
+    color: #2bbef9;
+    font-size: 1.75rem;
+    font-weight: 700 ;
+}
+
+.date-txt {
+   font-size: 0.8125rem;
+   color: #3161c2; 
+}
+
+.title-news-item-txt {
+    font-size: 1rem;
+    color: #161616;
+    font-weight: 500; 
+}
+
+.description-news-item-txt {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #3d3d3d;
+}
+
+.author-news-items-txt {
+    color: #656565;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.price-news-items-txt {
+    color: #18364d;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.view-news-items-txt {
+    color: #ff853f;
+    font-size: 0.6875rem;
+    font-weight: 400;
+}
+
+.shadow-figma-card {
+  background: #F6F6F6;
+  box-shadow: 0px 4px 36.5px rgba(0, 0, 0, 0.18);
+  border-radius: 0 0 10px 10px;
+}
