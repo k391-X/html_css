@@ -14,7 +14,6 @@
 
 .title-news-item-txt {
     font-size: 1rem;
-    color: #161616;
     font-weight: 500; 
 }
 
@@ -63,21 +62,30 @@
   @apply scale-105;
 }
 
-/* Hiệu ứng underline + text color transition */
+/* src/custom.css */
 .custom-link-underline {
-  @apply relative inline-block text-black transition-colors duration-200;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  color: #161616;
 }
 
 .custom-link-underline::after {
   content: "";
-  @apply absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 transition-all duration-200;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2563eb;
+  transition: width 0.2s ease;
 }
 
 .custom-link-underline:hover {
-  @apply text-blue-600;
+  color: #2563eb !important;
 }
 
 .custom-link-underline:hover::after {
-  @apply w-full;
+  width: 100%;
 }
-

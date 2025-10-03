@@ -16,17 +16,10 @@ export default function NewsItem02({ image, date, title, desc }) {
           ${date}
         </div>
 
-        <!-- Title nếu cần mở lại -->
-        <!--
-        <div class="py-3">
-          <div class="text-left font-bold text-lg line-clamp-2">
+        <div class="custom-link-underline">
+          <div class="text-left line-clamp-2" style="margin-top: 0.8125rem;" title="${title}">
             ${title}
           </div>
-        </div>
-        -->
-
-        <div class="text-left line-clamp-2" style="margin-top: 0.8125rem;">
-          ${desc}
         </div>
       </div>
     </div>

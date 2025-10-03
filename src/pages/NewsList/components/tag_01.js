@@ -1,6 +1,7 @@
 import image from "../../../assets/left/image.png";
 
 export default function tag_01() {
+const title = "Cơ sở dữ liệu thống kê quốc gia - Chuyển đổi toàn diện việc sản xuất và sử dụng thông tin thống kê"; 
   return `
     <div class="flex flex-col gap-4 overflow-y-auto">
         <!-- Tiêu đề -->
@@ -19,8 +20,8 @@ export default function tag_01() {
 
             <!-- Nội dung text -->
             <div class="w-full md:w-1/2 flex flex-col justify-between">
-                <div class="text-base md:text-[20px] font-normal text-left custom-link-underline">
-                    Cơ sở dữ liệu thống kê quốc gia - Chuyển đổi toàn diện việc sản xuất và sử dụng thông tin thống kê
+                <div class="text-base md:text-[20px] font-normal text-left custom-link-underline" title="${title}">
+                    ${title}
                 </div>
 
                 <div class="flex my-3 md:my-5 text-left date-txt text-sm md:text-base">

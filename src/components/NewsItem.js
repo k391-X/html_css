@@ -13,8 +13,10 @@ export default function NewsItem({ image, date, title, desc }) {
         </div>
 
         <div class="py-2">
-          <div class="text-left text-base md:text-lg font-medium title-news-item-txt line-clamp-2">
-            ${title}
+          <div class="custom-link-underline">
+            <div class="text-left text-base md:text-lg font-medium title-news-item-txt line-clamp-2" title="${title}">
+              ${title}
+            </div>
           </div>
         </div>
 

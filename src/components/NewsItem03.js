@@ -20,17 +20,12 @@ export default function NewsItem03({ image, date, title, desc, author, price, vi
         </div>
         -->
 
-        <!-- Title nếu cần mở lại -->
-        <!--
         <div class="py-3">
-          <div class="text-left line-clamp-2">
-            ${title}
+          <div class="custom-link-underline">
+            <div class="text-left title-news-item-txt line-clamp-2" title="${title}">
+              ${title}
+            </div>
           </div>
-        </div>
-        -->
-
-        <div class="text-left title-news-item-txt line-clamp-2">
-          ${desc}
         </div>
 
         <div class="text-left line-clamp-1 author-news-items-txt my-4">
@@ -48,7 +43,7 @@ export default function NewsItem03({ image, date, title, desc, author, price, vi
             </div>
           </div>
 
-          <div class="flex items-end pb-[2px]">
+          <div class="flex items-end pb-[2px] cursor-pointer">
             <span>
               <img 
                 src="${ShoppingCart}" 
