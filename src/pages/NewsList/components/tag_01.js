@@ -28,11 +28,11 @@ const title = "Cơ sở dữ liệu thống kê quốc gia - Chuyển đổi to�
                         Thứ Bảy, 08:39 - 20/09/2025
                     </div>
 
-                    <div class="flex">
+                    <div class="flex items-center">
                         <img 
                             src="${reply}" 
                             alt="demo" 
-                            class="w-full h-full object-cover rounded-lg shadow custom-img-zoom cursor-pointer" 
+                            class="w-8 h-6 rounded-lg shadow custom-img-zoom cursor-pointer" 
                         />
                         <div class="mx-2 w-max whitespace-nowrap ml-2">
                             Chia sẻ:
@@ -40,12 +40,12 @@ const title = "Cơ sở dữ liệu thống kê quốc gia - Chuyển đổi to�
                         <img 
                             src="${facebook}" 
                             alt="demo" 
-                            class="w-full h-full object-cover rounded-lg shadow custom-img-zoom cursor-pointer ml-2" 
+                            class="w-6 h-6 custom-img-zoom cursor-pointer ml-2" 
                         />
                         <img 
                             src="${twitter}" 
                             alt="demo" 
-                            class="w-full h-full object-cover rounded-lg shadow custom-img-zoom cursor-pointer ml-2" 
+                            class="w-6 h-6 rounded-lg shadow custom-img-zoom cursor-pointer ml-2" 
                         />
                     </div>
                 </div>
@@ -121,7 +121,7 @@ const title = "Cơ sở dữ liệu thống kê quốc gia - Chuyển đổi to�
                     xuất thiết bị tổng đài số Alcatel từ năm 1994. Đến nay, AI được ứng dụng trong nhiều hoạt động ở VNPT Technology, bao gồm: kiểm soát nhân
                     viên ra vào (access control), phân tích dữ liệu sản xuất và dự báo nhu cầu (manufacturing management), ứng dụng computer vision để phát hiện
                     lỗi sản phẩm, giám sat chất lượng theo thời gian thực (quality control) và triển khai robot di động đa hướng, điều hướng tự động bằng AI hỗ trợ 
-                    vận chuyển nguyên vật liệu thông minh (AI automated guided vehicle)/
+                    vận chuyển nguyên vật liệu thông minh (AI automated guided vehicle).
                 </div>
 
                 <div class="mt-2">
@@ -137,27 +137,25 @@ const title = "Cơ sở dữ liệu thống kê quốc gia - Chuyển đổi to�
                     </div>
                 </div>
 
-                <div>
-                    <div class="flex items-center w-max">
-                        <img 
-                            src="${reply}" 
-                            alt="demo" 
-                            class="w-full h-full object-cover rounded-lg shadow custom-img-zoom cursor-pointer" 
-                        />
-                        <div class="mx-2 w-max whitespace-nowrap ml-2">
-                            Chia sẻ:
-                        </div>
-                        <img 
-                            src="${facebook}" 
-                            alt="demo" 
-                            class="w-full h-full object-cover rounded-lg shadow custom-img-zoom cursor-pointer ml-2" 
-                        />
-                        <img 
-                            src="${twitter}" 
-                            alt="demo" 
-                            class="w-full h-full object-cover rounded-lg shadow custom-img-zoom cursor-pointer ml-2" 
-                        />
+                <div class="flex items-center mt-5">
+                    <img 
+                        src="${reply}" 
+                        alt="demo" 
+                        class="w-8 h-6 rounded-lg shadow custom-img-zoom cursor-pointer" 
+                    />
+                    <div class="mx-2 w-max whitespace-nowrap ml-2">
+                        Chia sẻ:
                     </div>
+                    <img 
+                        src="${facebook}" 
+                        alt="demo" 
+                        class="w-6 h-6 custom-img-zoom cursor-pointer ml-2" 
+                    />
+                    <img 
+                        src="${twitter}" 
+                        alt="demo" 
+                        class="w-6 h-6 rounded-lg shadow custom-img-zoom cursor-pointer ml-2" 
+                    />
                 </div>
             </div>
 

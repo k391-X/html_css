@@ -1,5 +1,5 @@
 import Tag01 from "./components/tag_01.js";
-import Tag02 from "./components/tag_02.js";
+import Tag02 from "./components/tag_02_trang_chi_tiet_tin_tuc.js";
 import Tag03 from "./components/tag_03.js";
 import Tag04 from "./components/tag_04.js";
 import HomeIcon from "../../assets/home_icon.svg";
@@ -27,6 +27,15 @@ export default function NewsList() {
         <div class="w-full md:w-[70%] flex flex-col gap-4 overflow-y-auto">
           <div>
             ${Tag01()}
+          </div>
+
+          <div class="flex justify-start">
+            <div class="font-[700] text-[28px] text-[#0455A4]">
+              Các bài đã đăng
+            </div>
+          </div>
+          <div>
+            ${Tag02()}
           </div>
         </div>
 
