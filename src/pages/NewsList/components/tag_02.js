@@ -161,7 +161,7 @@ export default function tag_02() {
   displayItems = displayItems.slice(0, limit);
 
   return `
-    <main class="px-6 pb-6">
+    <main class="pb-6">
       ${Pagination({
         data: newsData,
         limit: limit,

@@ -8,7 +8,7 @@ export default function NewsItem03({ image, date, title, desc, author, price, vi
         <img 
           src="${image}" 
           alt="demo" 
-          class="w-full h-full object-cover rounded-lg shadow" 
+          class="w-full h-full object-cover rounded-lg shadow custom-img-zoom" 
         />
       </div>
 
@@ -53,7 +53,7 @@ export default function NewsItem03({ image, date, title, desc, author, price, vi
               <img 
                 src="${ShoppingCart}" 
                 alt="demo" 
-                class="w-full h-full object-cover rounded-lg shadow" 
+                class="w-full h-full object-cover rounded-lg shadow custom-img-zoom" 
               />
             </span>
           </div>

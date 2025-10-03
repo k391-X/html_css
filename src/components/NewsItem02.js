@@ -6,7 +6,7 @@ export default function NewsItem02({ image, date, title, desc }) {
         <img 
           src="${image}" 
           alt="demo" 
-          class="w-full h-full object-cover rounded-lg shadow" 
+          class="w-full h-full object-cover rounded-lg shadow custom-img-zoom" 
         />
       </div>
 

@@ -53,3 +53,31 @@
     border-bottom: 1px solid #EDEDED;
 }
 
+/* index.css */
+.custom-img-zoom {
+  @apply transition-transform duration-100;
+  transition-timing-function: ease-in-out; /* viết tay */
+}
+
+.custom-img-zoom:hover {
+  @apply scale-105;
+}
+
+/* Hiệu ứng underline + text color transition */
+.custom-link-underline {
+  @apply relative inline-block text-black transition-colors duration-200;
+}
+
+.custom-link-underline::after {
+  content: "";
+  @apply absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 transition-all duration-200;
+}
+
+.custom-link-underline:hover {
+  @apply text-blue-600;
+}
+
+.custom-link-underline:hover::after {
+  @apply w-full;
+}
+
