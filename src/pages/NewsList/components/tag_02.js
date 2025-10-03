@@ -1,7 +1,13 @@
-import image02 from "../../../assets/left/image-02.png";
+import image02 from "../../../assets/left/image_02.png";
+import image03 from "../../../assets/left/image_03.png";
+import image04 from "../../../assets/left/image_04.png";
+import image05 from "../../../assets/left/image_05.png";
+
 import NewsItem from "../../../components/NewsItem";
+import Pagination from "../../../components/Pagination";
+
 export default function tag_02() {
-  const limit = 2;
+  const limit = 5;
   const shuffle = false;
   
   const newsData = [
@@ -13,7 +19,35 @@ export default function tag_02() {
       desc: "Giai đoạn 2021-2025, ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc",
     },
     {
-      image: image02,
+      image: image03,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image04,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image05,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image04,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image05,
       date: "18/02/2025",
       title:
         "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
@@ -33,8 +67,43 @@ export default function tag_02() {
         "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
       desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
     },
-    {
+        {
       image: image02,
+      date: "16/02/2025",
+      title:
+        "Viện Công nghệ - HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ",
+      desc: "Giai đoạn 2021-2025, ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc",
+    },
+    {
+      image: image03,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image04,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image05,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image04,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image05,
       date: "18/02/2025",
       title:
         "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
@@ -54,8 +123,22 @@ export default function tag_02() {
         "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
       desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
     },
-    {
+        {
       image: image02,
+      date: "16/02/2025",
+      title:
+        "Viện Công nghệ - HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ",
+      desc: "Giai đoạn 2021-2025, ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc",
+    },
+    {
+      image: image03,
+      date: "18/02/2025",
+      title:
+        "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
+      desc: "Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao Chương trình nhằm đáp ứng nhu cầu nhân lực chất lượng cao",
+    },
+    {
+      image: image04,
       date: "18/02/2025",
       title:
         "Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới Trường Đại học mở chương trình đào tạo mới",
@@ -78,8 +161,12 @@ export default function tag_02() {
   displayItems = displayItems.slice(0, limit);
 
   return `
-    <main class="p-6">
-      ${displayItems.map((item) => NewsItem(item)).join("")}
+    <main class="px-6 pb-6">
+      ${Pagination({
+        data: newsData,
+        limit: limit,
+        renderItem: (item) => NewsItem(item),
+      })}
     </main>
   `;
 }

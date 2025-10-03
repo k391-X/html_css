@@ -5,9 +5,9 @@ import Tag04 from "./components/tag_04.js";
 
 export default function NewsList() {
   return `
-<main class="flex flex-col md:flex-row min-h-screen gap-4 p-4">
-  <!-- Cột trái 60% trên desktop -->
-  <div class="flex-1 md:basis-3/4 flex flex-col gap-4 overflow-y-auto">
+<main class="flex flex-col md:flex-row min-h-screen gap-4 p-4 w-full">
+  <!-- Cột trái 70% trên desktop -->
+  <div class="w-full md:w-[70%] flex flex-col gap-4 overflow-y-auto">
     <div>
       ${Tag01()}
     </div>
@@ -17,28 +17,26 @@ export default function NewsList() {
     </div>
   </div>
 
-  <!-- Cột phải 40% trên desktop -->
-  <div class="flex-1 md:basis-1/4 flex flex-col gap-4 overflow-y-auto">
+  <!-- Cột phải 30% trên desktop -->
+  <div class="w-full md:w-[30%] flex flex-col gap-4 overflow-y-auto">
     <div>
-      <div class="text-left title-txt">
+      <div class="text-left title-txt uppercase">
         Tin nổi bật
       </div>
     
-      <div class="border-[#2bbef9] border-t-[2px] my-4">
-      </div>
+      <div class="border-[#2bbef9] border-t-[2px] mt-4"></div>
     
-      <div>
+      <div class="">
         ${Tag03()}
       </div>
     </div>
     
     <div>
-      <div class="text-left title-txt">
+      <div class="text-left title-txt uppercase">
         Tạp chí có nhiều lượt đọc
       </div> 
       
-      <div class="my-4 border-[#2bbef9] border-b-[2px]">
-      </div>
+      <div class="my-4 border-[#2bbef9] border-b-[2px]"></div>
       
       <div>
         ${Tag04()}

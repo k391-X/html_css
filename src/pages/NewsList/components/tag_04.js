@@ -1,4 +1,7 @@
-import image02 from "../../../assets/left/image-02.png";
+import image02 from "../../../assets/right/image_02.png";
+import image03 from "../../../assets/right/image_03.png";
+import image04 from "../../../assets/right/image_04.png";
+
 import NewsItem03 from "../../../components/NewsItem03";
 
 export default function tag_04() {
@@ -17,7 +20,17 @@ export default function tag_04() {
       view: "4206"
     },
         {
-      image: image02,
+      image: image03,
+      date: "16/02/2025",
+      title:
+        "Viện Công nghệ - HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ",
+      desc: "Giai đoạn 2021-2025, ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc",
+      author: "Nguyễn Thiên Tuế",
+      price: "72,000",
+      view: "4206"
+    },
+        {
+      image: image04,
       date: "16/02/2025",
       title:
         "Viện Công nghệ - HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ",
@@ -37,7 +50,7 @@ export default function tag_04() {
       view: "4206"
     },
         {
-      image: image02,
+      image: image03,
       date: "16/02/2025",
       title:
         "Viện Công nghệ - HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ",
@@ -47,17 +60,7 @@ export default function tag_04() {
       view: "4206"
     },
         {
-      image: image02,
-      date: "16/02/2025",
-      title:
-        "Viện Công nghệ - HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ",
-      desc: "Giai đoạn 2021-2025, ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc ngành Thống kê tích cực triển khai nhiều phần việc",
-      author: "Nguyễn Thiên Tuế",
-      price: "72,000",
-      view: "4206"
-    },
-        {
-      image: image02,
+      image: image04,
       date: "16/02/2025",
       title:
         "Viện Công nghệ - HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ HaUI tổ chức thành công hai hội thảo khoa học công nghệ",
@@ -83,8 +86,8 @@ export default function tag_04() {
   displayItems = displayItems.slice(0, limit);
 
   return `
-    <main class="px-4">
-      <div class="p-4 shadow-figma-card">
+    <main class="px-2 pb-2">
+      <div class="shadow-figma-card">
         ${displayItems.map((item) => NewsItem03(item)).join("")}
       </div>
     </main>

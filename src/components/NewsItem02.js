@@ -1,8 +1,8 @@
 export default function NewsItem02({ image, date, title, desc }) {
   return `
-    <div class="flex gap-4 mb-6">
+    <div class="flex gap-2 mb-1">
       <!-- Hình (40%) -->
-      <div class="w-2/5">
+      <div class="w-2/5 p-3">
         <img 
           src="${image}" 
           alt="demo" 
@@ -11,7 +11,7 @@ export default function NewsItem02({ image, date, title, desc }) {
       </div>
 
       <!-- Nội dung (60%) -->
-      <div class="w-3/5 flex flex-col">
+      <div class="w-3/5 flex flex-col p-2">
         <div class="text-left date-txt">
           ${date}
         </div>
@@ -25,7 +25,7 @@ export default function NewsItem02({ image, date, title, desc }) {
         </div>
         -->
 
-        <div class="text-left line-clamp-3" style="margin-top: 0.8125rem;">
+        <div class="text-left line-clamp-2" style="margin-top: 0.8125rem;">
           ${desc}
         </div>
       </div>

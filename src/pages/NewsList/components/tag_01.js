@@ -27,7 +27,7 @@ export default function tag_01() {
             </div>
         </div>
 
-        <div class="border-b-2 my-4">
+        <div class="border-b-1 border-[#C1C7CD] my-4">
         </div>
     </div>
   `;

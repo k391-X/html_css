@@ -12,13 +12,13 @@ export default function NewsItem({ image, date, title, desc }) {
           ${date}
         </div>
 
-        <div class="py-3">
+        <div class="py-2">
           <div class="text-left title-news-item-txt line-clamp-2">
             ${title}
           </div>
         </div>
 
-        <div class="text-left description-news-item-txt line-clamp-3">
+        <div class="text-left description-news-item-txt line-clamp-2">
           ${desc}
         </div>
       </div>
