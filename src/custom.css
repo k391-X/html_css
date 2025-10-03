@@ -89,3 +89,23 @@
 .custom-link-underline:hover::after {
   width: 100%;
 }
+
+.list-hover-div {
+  color: #18364D; /* màu mặc định */
+  transition: color 0.3s ease; /* mượt khi hover */
+  cursor: pointer; /* nếu muốn con trỏ thay đổi */
+}
+
+.list-hover-div:hover {
+  color: #0D8ECF; /* màu khi hover */
+}
+
+.list-hover li {
+  color: #18364D; /* màu mặc định */
+  transition: color 0.3s ease; /* mượt khi hover */
+  cursor: pointer; /* nếu muốn con trỏ thay đổi */
+}
+
+.list-hover li:hover {
+  color: #0D8ECF; /* màu khi hover */
+}

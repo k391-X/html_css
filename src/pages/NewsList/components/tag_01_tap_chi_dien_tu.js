@@ -21,7 +21,7 @@ export default function Tag01() {
             </div>
         </div>
         <div class="flex py-6 pl-4">
-            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500]">
+            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500] list-hover">
                 <li>Tạp chí khoa học Tự nhiên</li>
                 <li>Tạp chí Khoa học Giáo dục</li>
                 <li>Tạp chí Khoa học Xã hội</li>
@@ -38,7 +38,7 @@ export default function Tag01() {
         </div>
 
         <div class="flex py-6 pl-4">
-            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500]">
+            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500] list-hover">
                 <li>Tên tác giả 1</li>
                 <li>Tên tác giả 2</li>
                 <li>Tên tác giả 3</li>
@@ -97,7 +97,7 @@ export default function Tag01() {
         </div>
 
         <div class="py-6">
-            <div class="flex items-center">
+            <div class="flex items-center list-hover-div">
                 <img 
                     src="${visibility}" 
                     alt="demo" 
@@ -108,7 +108,7 @@ export default function Tag01() {
                 </div>
             </div>
 
-            <div class="flex items-center mt-4">
+            <div class="flex items-center mt-4 list-hover-div">
                 <img 
                     src="${shopping_cart_black}" 
                     alt="demo" 
@@ -119,7 +119,7 @@ export default function Tag01() {
                 </div>
             </div>
 
-            <div class="flex items-center mt-4">
+            <div class="flex items-center mt-4 list-hover-div">
                 <div class="relative">
                     <img 
                         src="${contact}" 
