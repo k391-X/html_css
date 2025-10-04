@@ -159,4 +159,78 @@
   transform: rotate(45deg);
 }
 
+/* Nút màu cam */
+.custom-btn-orange-chi-tiet-tcdt {
+  background-color: #FF853F;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  min-width: 130px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+.custom-btn-orange-chi-tiet-tcdt:hover {
+  background-color: #e6732f; /* đậm hơn khi hover */
+  transform: scale(1.03);   /* nhẹ nhàng phóng to */
+  cursor: pointer;
+}
+
+/* Nút màu xanh */
+.custom-btn-blue-chi-tiet-tcdt {
+  background-color: #0455A4;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  min-width: 200px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.custom-btn-blue-chi-tiet-tcdt:hover {
+  background-color: #034080; /* xanh đậm hơn khi hover */
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Hiệu ứng xoay khi check/uncheck */
+.custom-checkbox .checkmark {
+  transition: all 0.4s ease;
+  transform-origin: center;
+}
+
+/* Khi click check */
+.custom-checkbox input:checked + .checkmark {
+  background-color: rgba(0,0,0,0.54);
+  border-color: rgba(0,0,0,0.54);
+  transform: rotate(360deg); /* quay đủ vòng */
+}
+
+/* Khi bỏ check */
+.custom-checkbox input:not(:checked) + .checkmark {
+  transform: rotate(0deg);
+}
+
+/* Hover cho cả item */
+.news-item-tag-03-trang-chi-tiet-tap-chi-dien-tu:hover li {
+  cursor: pointer;
+  color: #0455A4;          /* màu xanh */
+  font-weight: 700;         /* tăng độ đậm */
+  text-decoration: underline; /* giữ underline */
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.news-item-tag-03-trang-chi-tiet-tap-chi-dien-tu:hover div {
+  color: #6B6B6B;          /* màu nổi bật hơn cho author */
+  font-weight: 600;         /* tăng độ đậm */
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+
+
+
 

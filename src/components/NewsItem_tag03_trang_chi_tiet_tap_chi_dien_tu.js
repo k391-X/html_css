@@ -3,7 +3,7 @@ export default function NewsItem(title, author) {
     return `
         <div class="news-item-tag-03-trang-chi-tiet-tap-chi-dien-tu mb-2">
             <ul class="list-disc list-inside">
-                <li class="text-[16px] font-[700] text-[#484554]">
+                <li class="text-[16px] font-[600] text-[#484554]">
                     ${title}
                 </li>
             </ul>

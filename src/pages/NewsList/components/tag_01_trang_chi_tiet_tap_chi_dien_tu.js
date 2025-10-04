@@ -44,9 +44,9 @@ export default function tag_01() {
                 </div>
 
                 <div class="flex items-center gap-4">
-                    <img src="${facebook}" alt="demo" class="w-5 h-5 sm:w-6 sm:h-6" />
-                    <img src="${linkedin}" alt="demo" class="w-5 h-5 sm:w-6 sm:h-6" />
-                    <img src="${twitter}" alt="demo" class="w-5 h-5 sm:w-6 sm:h-6" />
+                    <img src="${facebook}" alt="demo" class="w-5 h-5 sm:w-6 sm:h-6 custom-img-zoom" />
+                    <img src="${linkedin}" alt="demo" class="w-5 h-5 sm:w-6 sm:h-6 custom-img-zoom" />
+                    <img src="${twitter}" alt="demo" class="w-5 h-5 sm:w-6 sm:h-6 custom-img-zoom" />
                 </div>
             </div>
 
@@ -81,13 +81,13 @@ export default function tag_01() {
                     <!-- Dòng 2 -->
                     <div class="text-left flex items-center">Chọn mua gói:</div>
                     <div class="flex items-center justify-center">
-                        <label class="custom-checkbox">
+                        <label class="custom-checkbox custom-checkbox-chi-tiet-tcdt">
                             <input type="checkbox" checked>
                             <span class="checkmark"></span>
                         </label>
                     </div>
                     <div class="pl-1 xl:pl-[30px] flex items-center gap-3">
-                        <div class="min-w-[100px] sm:min-w-[130px] h-[35px] sm:h-[40px] bg-[#FF853F] rounded-[5px] flex items-center justify-between px-3">
+                        <div class="min-w-[100px] sm:min-w-[130px] h-[35px] sm:h-[40px] bg-[#FF853F] rounded-[5px] flex items-center justify-between px-3 custom-btn-orange-chi-tiet-tcdt">
                             <span class="text-[#000000] text-[14px] sm:text-[16px]">1 tháng</span>
                             <img src="${arrow_down}" alt="demo" class="w-[20px] h-[20px] sm:w-[25px] sm:h-[25px]" />
                         </div>
@@ -98,7 +98,7 @@ export default function tag_01() {
                     <div class="font-[700] text-left">Cho vào giỏ hàng:</div>
                     <div></div>
                     <div class="pl-1 xl:pl-[30px]">
-                        <div class="min-w-[160px] sm:min-w-[200px] h-[40px] sm:h-[45px] bg-[#0455A4] rounded-[5px] flex items-center justify-center text-white">
+                        <div class="min-w-[160px] sm:min-w-[200px] h-[40px] sm:h-[45px] bg-[#0455A4] rounded-[5px] flex items-center justify-center text-white custom-btn-blue-chi-tiet-tcdt">
                             <span class="text-[16px] sm:text-[18px] font-[400]">MUA HÀNG</span>
                             <img src="${shopping_cart}" alt="cart" class="ml-3 w-[18px] sm:w-[20px] h-[18px] sm:h-[20px]" />
                         </div>
