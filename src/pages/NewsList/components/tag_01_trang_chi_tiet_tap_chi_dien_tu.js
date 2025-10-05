@@ -18,7 +18,7 @@ export default function tag_01() {
                 <img src="${image193}" alt="demo" class="w-full h-full rounded-sm shadow custom-img-zoom object-cover" />
             </div>
 
-            <div class="text-[16px] font-[400] text-[#18364D] mt-6 !line-clamp-2 custom-link-underline" title="Số 6/2025 Tạp chí Khoa học tự nhiên">
+            <div class="text-[16px] font-[400] text-[#18364D] mt-6 !line-clamp-2" title="Số 6/2025 Tạp chí Khoa học tự nhiên">
                 Số 6/2025 Tạp chí Khoa học tự nhiên
             </div>
         </div>

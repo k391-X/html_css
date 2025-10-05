@@ -1,5 +1,8 @@
-import Tag01 from "./components/tag_01_tap_chi_dien_tu.js";
-import Tag02 from "./components/tag_02_tap_chi_dien_tu.js";
+import Tag01 from "./components/tag_01_trang_chi_tiet_tap_chi_dien_tu.js";
+import Tag02 from "./components/tag_02_trang_chi_tiet_tap_chi_dien_tu.js";
+import Tag03 from "./components/tag_03_trang_chi_tiet_tap_chi_dien_tu.js";
+
+
 import HomeIcon from "../../assets/home_icon.svg";
 import Banner from "../../assets/magazines/banner_tap_chi_dien_tu.png";
 
@@ -35,27 +38,22 @@ export default function NewsList() {
         </div>
       </div>
 
-      <!-- Main content: 2 cột responsive -->
-      <div class="flex flex-col md:flex-row mt-4 gap-4">
+      <!-- Main content: Tag01 - Review sách -->
+      <div class="">
 
         <!-- Cột trái: Tag01 -->
-        <div class="w-full md:w-[30%] flex flex-col gap-4 overflow-y-auto pr-0 md:pr-4">
+        <div class="mt-12">
           ${Tag01()}
         </div>
 
-        <!-- Cột phải: Tag02 -->
-        <div class="w-full md:w-[70%] flex flex-col gap-4 overflow-y-auto">
-          <!-- Tiêu đề danh sách -->
-          <div class="flex flex-col gap-2">
-            <span class="font-bold text-xl md:text-[28px] text-[#0455A4]">
-              Danh sách tạp chí
-            </span>
-          </div>
-
-          <!-- Nội dung Tag02 -->
-          <div>
+        <!-- Nội dung Tag02 -->
+        <div class="mt-[50px]">
             ${Tag02()}
-          </div>
+        </div>
+
+        <!-- Nội dung Tag03 -->
+        <div class="mt-[75px]">
+          ${Tag03()}
         </div>
 
       </div>
