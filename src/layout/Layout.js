@@ -5,8 +5,10 @@ export default function Layout(content) {
   return `
     <div class="min-h-screen flex flex-col">
       ${Header()}
-      <main class="flex-grow bg-gray-50 p-6">
-        ${content}
+      <main class="flex justify-center bg-gray-50">
+        <div class="container">
+          ${content}
+        </div>
       </main>
       ${Footer()}
     </div>
