@@ -6,10 +6,10 @@ import HomeIcon from "../../assets/home_icon.svg";
 
 export default function NewsList() {
   return `
-    <main class="md:flex-row min-h-screen gap-4 px-4 pb-4 w-full">
+    <main class="min-h-screen gap-4 px-4 pb-4 w-full">
 
       <!-- Phần thanh điều hướng - Ngay dưới header -->
-      <div class="bg-[#F5F4F4] w-full h-[2rem] flex items-center p-4 mb-2 h-full">
+      <div class="bg-[#F5F4F4] w-full h-[2rem] flex items-center p-4 mb-2">
         <img 
           src="${HomeIcon}" 
           alt="demo" 
@@ -21,8 +21,9 @@ export default function NewsList() {
         <div class="text-[#2BBEF9]"> Tin tức </div>
       </div>
 
-
-      <div class="flex">
+      <!-- Layout chính -->
+      <div class="flex flex-col md:flex-row gap-4">
+        
         <!-- Cột trái 70% trên desktop -->
         <div class="w-full md:w-[70%] flex flex-col gap-4 overflow-y-auto">
           <div>
@@ -48,7 +49,7 @@ export default function NewsList() {
           
             <div class="border-[#2bbef9] border-t-[2px] mt-4"></div>
           
-            <div class="">
+            <div>
               ${Tag03()}
             </div>
           </div>
