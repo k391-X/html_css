@@ -59,7 +59,7 @@
 }
 
 .custom-img-zoom:hover {
-  @apply scale-105;
+  @apply scale-110;
 }
 
 /* src/custom.css */
@@ -230,6 +230,68 @@
   transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
+.custom-input-login {
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.custom-input-login:focus {
+  border-color: #00c9a7 !important;
+  outline: none; /* xoá viền mặc định */
+}
+
+/* Nút màu xanh - login */
+.custom-btn-blue-login {
+  background-color: #2BBEF9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  min-width: 140px;
+  height: 40px;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .custom-btn-blue-login {
+    min-width: 180px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
+
+.custom-btn-blue-login:hover {
+  background-color: #1CA6DC;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.text-link-forget-password {
+  color: #18364D;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.text-link-forget-password:hover {
+  color: #1CA6DC;
+  text-decoration: underline;
+}
+
+.text-link-register {
+  cursor: pointer;
+  color: #2BBEF9;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.text-link-register:hover {
+  color: #034080;
+  text-decoration: underline;
+}
 
 
 
