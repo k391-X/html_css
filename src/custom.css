@@ -293,6 +293,17 @@
   text-decoration: underline;
 }
 
+.text-link-policy {
+  cursor: pointer;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.text-link-policy:hover {
+  color: #2BBEF9;
+  text-decoration: underline;
+}
+
 
 
 
