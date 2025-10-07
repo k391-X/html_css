@@ -345,5 +345,12 @@
   @apply relative flex items-center pl-5 h-[30px] before:content-['•'] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:text-[#484554] before:text-[24px];
 }
 
+.custom-border-shopping-cart {
+  border: 1px solid #FFFFFF;
+}
+
+.custom-border-bought {
+  border: 1px solid #FF853F;
+}
 
 

@@ -1,6 +1,7 @@
 import HomeIcon from "../../assets/home_icon.svg";
 import Tag01 from "./components/tag_01_gio_hang";
 import Tag02 from "./components/tag_02_gio_hang";
+import Tag03 from "./components/tag_03_gio_hang";
 
 export default function NewsList() {
   return `
@@ -20,12 +21,16 @@ export default function NewsList() {
 
       <!-- Phần nội dung -->
       <div class="mt-3 flex flex-row gap-3 sm:gap-4 md:gap-6">
-        <div class="w-[35%] sm:w-[30%] md:w-1/5 min-w-[130px]">
+        <div class="w-[30%] sm:w-[30%] md:w-1/5 min-w-[130px]">
           ${Tag01()}
         </div>
 
-        <div class="w-[65%] sm:w-[70%] md:w-4/5 overflow-hidden">
+        <div class="w-[40%] sm:w-[70%] md:w-4/5 overflow-hidden">
           ${Tag02()}
+        </div>
+
+        <div class="w-[30%]">
+          ${Tag03()}
         </div>
       </div>
     </main>
