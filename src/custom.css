@@ -59,7 +59,7 @@
 }
 
 .custom-img-zoom:hover {
-  @apply scale-110;
+  @apply scale-120;
 }
 
 /* src/custom.css */
@@ -353,4 +353,48 @@
   border: 1px solid #FF853F;
 }
 
+.custom-btn-plus {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-btn-plus:hover {
+  background-color: #bfbfbf; /* màu hover xám đậm hơn chút */
+  transform: scale(1.2);     /* phóng to nhẹ */
+}
+
+.custom-btn-plus:active {
+  transform: scale(0.95);    /* nhấn xuống thu nhỏ nhẹ */
+}
+
+.custom-btn-buy {
+  color: #ff853f;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 4px 20px;
+  border: 1px solid #ff853f;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.custom-btn-buy:hover {
+  background-color: #ff853f;
+  color: #ffffff;
+  transform: scale(1.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.custom-btn-buy:active {
+  transform: scale(0.95);
+}
 
