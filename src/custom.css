@@ -304,6 +304,46 @@
   text-decoration: underline;
 }
 
+.tag_01_left_chinh_sua_thong_tin {
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  box-sizing: border-box;
+  max-width: 230px;
+  padding: 18px 7px;
+}
+
+.tag_02_right_chinh_sua_thong_tin {
+  border: 1px solid #EDEDED;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.custom_small_border {
+  border: 1px solid #D5D5D5;
+  border-radius: 5px;
+}
+
+.custom-link {
+  @apply inline-block cursor-pointer text-[#484554] text-[16px] font-[400] transition-all duration-200 ease-in-out;
+}
+
+.custom-link:hover {
+  @apply text-blue-600 text-[17px] font-[500];
+}
+
+@reference "tailwindcss";
+.custom-btn-select-avatar {
+  @apply text-[#656565] transition-all duration-200 ease-in-out cursor-pointer;
+}
+
+.custom-btn-select-avatar:hover {
+  @apply bg-blue-500 text-white scale-110;
+}
+
+.bullet {
+  @apply relative flex items-center pl-5 h-[30px] before:content-['•'] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:text-[#484554] before:text-[24px];
+}
 
 
 
