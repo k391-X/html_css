@@ -39,7 +39,7 @@ export default function TableComponent(data) {
       <table class="min-w-[700px] md:min-w-full text-sm md:text-base border-collapse rounded-xl overflow-hidden">
         <thead class="bg-[#6bcce24d] text-left sticky top-0 z-10">
           <tr>
-            <th class="py-3 px-4 w-[50px]">STT</th>
+            <th class="py-3 px-4 w-[50px] hidden md:table-cell">STT</th>
             <th class="py-3 px-4 w-[160px]">Thời gian</th>
             <th class="py-3 px-4 w-[120px]">Số tiền</th>
             <th class="py-3 px-4 w-[120px]">Tổng</th>
@@ -52,7 +52,7 @@ export default function TableComponent(data) {
             .map((item, index) => {
               const s = getStatus(item.status);
               return `
-                <tr class="border-b border-[#E5E5E5] hover:bg-[#f9fafb] transition-colors duration-150">
+                <tr class="border-b border-[#E5E5E5] custom-table-row-hover">
                   <td class="py-3 px-4 text-[#656565]">${index + 1}</td>
                   <td class="py-3 px-4 text-[#656565]">${item.time}</td>
                   <td class="py-3 px-4 text-[#656565]">${item.amount}</td>

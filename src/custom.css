@@ -416,3 +416,11 @@ custom-wait-color
 .custom-wait-color {
   color: #FACC15 !important;
 }
+
+.custom-table-row-hover {
+  transition: background-color 0.15s ease-in-out;
+}
+
+.custom-table-row-hover:hover {
+  background-color: #e0e0e0; /* màu nền khi hover */
+}
