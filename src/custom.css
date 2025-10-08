@@ -398,3 +398,21 @@
   transform: scale(0.95);
 }
 
+.custom-header-table-lich-su-giao-dich {
+  font-weight: 700;
+  font-size: 16;
+  color: #484554;
+}
+
+.custom-success-color {
+  color: #22C55E !important;
+}
+
+.custom-error-color {
+  color: #EF4444 !important;
+}
+
+custom-wait-color
+.custom-wait-color {
+  color: #FACC15 !important;
+}
