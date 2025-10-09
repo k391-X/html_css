@@ -126,7 +126,7 @@ export default function Tag02() {
           </div>
 
           <div class="mt-5">
-            <div class="flex justify-center bg-[#2BBEF9] hover:bg-[#24A9E0] transition w-full rounded-[5px] px-3">
+            <div class="flex justify-center w-full rounded-[5px] px-3 custom-btn-blue-login">
               <!-- Hiển thị ở màn hình >= md -->
               <div class="hidden md:block text-[18px] font-[500] text-white py-1">
                 Tiếp tục thanh toán
