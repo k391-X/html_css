@@ -1,12 +1,12 @@
 import HomeIcon from "../../assets/home_icon.svg";
 import Tag01 from "./components/tag_01_gio_hang";
-import Tag02 from "./components/tag_02_thanh_toan.js";
+import Tag02 from "./components/tag_02_lich_su_mua_hang";
 
 export default function NewsList() {
   return `
     <main class="flex-grow px-3 sm:px-4 md:px-6 pb-4 w-full">
       <!-- Thanh điều hướng -->
-      <div class="w-full flex items-center px-3 sm:px-4 py-2 md:py-3">
+      <div class="bg-[#F5F4F4] w-full flex items-center px-3 sm:px-4 py-2 md:py-3">
         <img 
           src="${HomeIcon}" 
           alt="Trang chủ" 
@@ -20,7 +20,7 @@ export default function NewsList() {
 
       <!-- Phần nội dung -->
       <div class="mt-3 flex flex-row gap-3 sm:gap-4 md:gap-6">
-        <div class="w-[35%] sm:w-[30%] md:w-1/5 Tag02 min-w-[130px]">
+        <div class="w-[35%] sm:w-[30%] md:w-1/5Tag02 min-w-[130px]">
           ${Tag01()}
         </div>
 

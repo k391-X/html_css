@@ -424,3 +424,21 @@ custom-wait-color
 .custom-table-row-hover:hover {
   background-color: #e0e0e0; /* màu nền khi hover */
 }
+
+.custom-border-DCDCDC {
+  border: 1px solid #dcdcdc;
+}
+
+.custom-selection-method {
+  background-color: #6BCCE2;
+  opacity: 0.3;
+}
+
+.payment-option.active {
+  background-color: rgba(107, 204, 226, 0.3); /* #6BCCE2 với opacity 0.3 */
+  border-color: transparent;
+}
+
+.payment-option.active .check-icon {
+  display: flex !important;
+}

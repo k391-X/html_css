@@ -6,7 +6,7 @@ export default function Tag01() {
   return `
   <div class="w-full">
     <!-- Tài khoản -->
-    <div class="w-full bg-[#2BBEF9] rounded-[5px] flex items-center p-4 max-w-[230px] sm:max-w-full sm:p-3 min-h-[48px]">
+    <div class="w-full bg-[#2BBEF9] rounded-[5px] flex items-center p-4 !max-w-[230px] sm:max-w-full sm:p-3 min-h-[48px]">
       <img src="${IconPerm}" alt="demo" class="w-[29px] h-[27px] flex-shrink-0" />
       <span class="text-[16px] font-[500] text-[#FFFFFF] ml-2 leading-snug">
         Tài khoản

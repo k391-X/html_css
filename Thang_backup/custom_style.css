@@ -300,6 +300,9 @@
     .md\:max-w-\[340px\] {
       max-width: 340px;
     }
+    .md\:max-w-none {
+      max-width: none !important;
+    }
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -456,6 +459,9 @@
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
   }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
   .mt-\[0\.8125rem\] {
     margin-top: 0.8125rem;
   }
@@ -491,6 +497,12 @@
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
+  }
+  .mb-20 {
+    margin-bottom: calc(var(--spacing) * 20) !important;
   }
   .ml-1 {
     margin-left: calc(var(--spacing) * 1);
@@ -576,6 +588,9 @@
   .h-\[44px\] {
     height: 44px;
   }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[270px\] {
     height: 270px;
   }
@@ -636,6 +651,9 @@
   .w-\[26px\] {
     width: 26px;
   }
+  .w-\[50px\] {
+    width: 50px;
+  }
   .w-\[75px\] {
     width: 75px;
   }
@@ -694,6 +712,9 @@
   }
   .max-w-\[230px\] {
     max-width: 230px;
+  }
+  .max-w-\[260px\] {
+    max-width: 260px;
   }
   .max-w-\[270px\] {
     max-width: 270px;
@@ -1021,6 +1042,9 @@
   }
   .text-\[22px\] {
     font-size: 22px;
+  }
+  .text-\[24px\] {
+    font-size: 24px;
   }
   .text-\[28px\] {
     font-size: 28px;
