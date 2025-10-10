@@ -62,6 +62,15 @@
   @apply scale-120;
 }
 
+.custom-img-zoom-svg {
+  @apply transition-transform duration-100;
+  transition-timing-function: ease-in-out;
+}
+
+.custom-img-zoom-svg:hover {
+  @apply scale-120;
+}
+
 /* src/custom.css */
 .custom-link-underline {
   position: relative;
@@ -441,4 +450,25 @@ custom-wait-color
 
 .payment-option.active .check-icon {
   display: flex !important;
+}
+
+.modal-backdrop.show {
+  background-color: rgba(240, 240, 240, 0.85) !important;
+  -webkit-backdrop-filter: blur(4px); /* ✅ Safari & iOS */
+  backdrop-filter: blur(4px);         /* ✅ Chrome, Edge, Firefox */
+}
+
+/* Màu đen đậm hơn */
+.btn-close {
+  filter: brightness(0) invert(0);
+}
+
+/* Màu trắng */
+.btn-close.white {
+  filter: brightness(0) invert(1);
+}
+
+/* Màu xanh ngọc */
+.btn-close.teal {
+  filter: invert(55%) sepia(85%) saturate(300%) hue-rotate(120deg);
 }

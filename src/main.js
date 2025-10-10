@@ -4,6 +4,8 @@ import "../src/font.js";
 import Layout from "./layout/Layout.js";
 import LayoutLogin from "./layout/Layout_Login.js";
 import NewsList from "./pages/NewsList/index.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const app = document.getElementById("app");
 

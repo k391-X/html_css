@@ -21,7 +21,7 @@ export default function Tag01() {
             </div>
         </div>
         <div class="flex py-6 pl-4">
-            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500] list-hover">
+            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500] list-hover !pl-0">
                 <li>Tạp chí khoa học Tự nhiên</li>
                 <li>Tạp chí Khoa học Giáo dục</li>
                 <li>Tạp chí Khoa học Xã hội</li>
@@ -38,7 +38,7 @@ export default function Tag01() {
         </div>
 
         <div class="flex py-6 pl-4">
-            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500] list-hover">
+            <ul class="list-disc list-inside space-y-1 text-[#18364D] text-left text-[14px] font-[500] list-hover !pl-0">
                 <li>Tên tác giả 1</li>
                 <li>Tên tác giả 2</li>
                 <li>Tên tác giả 3</li>

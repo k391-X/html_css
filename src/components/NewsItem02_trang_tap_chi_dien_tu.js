@@ -2,7 +2,7 @@ export default function NewsItem02({ image, date, title, desc, name }) {
   return `
     <div class="">
       <!-- Hình (40%) -->
-      <div class="w-full h-[270px] p-3">
+      <div class="w-full h-[200px] md:h-[270px] p-1">
         <img 
           src="${image}" 
           alt="demo" 
