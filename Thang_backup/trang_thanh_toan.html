@@ -21,7 +21,10 @@
     <!--JS-->
     <script src="assets/uikit/dist/js/uikit.min.js"></script>
     <script src="assets/uikit/dist/js/uikit-icons.min.js"></script>
+
     <link rel="stylesheet" href="./assets/custom_style.css">
+    <!-- <link rel="stylesheet" href="./assets/index-CE55yVb6.css"> -->
+
 </head>
 <body class="">
 <!--app-->
@@ -159,159 +162,487 @@
 
       <main class="flex justify-center bg-gray-50 flex-grow">
           <div class="container">
-            <div class="bg-[#FFFFFF] px-4 lg:px-6 pb-4 w-full box-border">
-              <!-- mobile & tablet: column (stacked), desktop (lg): row -->
+            <main class="bg-[#FFFFFF] flex-grow sm:px-4 md:px-6 pb-4 w-full box-border">
+              <!-- Thanh điều hướng -->
               <div
-                class="flex flex-col md:flex-row items-center lg:items-start py-[80px] box-border"
+                class="w-full flex items-center px-3 sm:px-4 py-2 md:py-3"
               >
-                <!-- Ảnh (stacked trên mobile/tablet, left trên desktop) -->
-                <div class="w-full lg:w-1/2 mb-6 lg:mb-0 flex justify-center">
-                  <img
-                    src="./assets//images/login-Dtn6Cwj_.png"
-                    alt="demo"
-                    class="w-full max-w-[600px] lg:max-w-[520px] sm:max-w-[320px] h-auto max-h-[300px] md:max-h-[380px] object-cover rounded-[13px] shadow"
-                  />
+                <img
+                  src="data:image/svg+xml,%3csvg%20width='21'%20height='21'%20viewBox='0%200%2021%2021'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.74783%2016.9116V12.5366H12.2478V16.9116C12.2478%2017.3928%2012.6416%2017.7866%2013.1228%2017.7866H15.7478C16.2291%2017.7866%2016.6228%2017.3928%2016.6228%2016.9116V10.7866H18.1103C18.5128%2010.7866%2018.7053%2010.2878%2018.3991%2010.0253L11.0841%203.43656C10.7516%203.13906%2010.2441%203.13906%209.91158%203.43656L2.59658%2010.0253C2.29908%2010.2878%202.48283%2010.7866%202.88533%2010.7866H4.37283V16.9116C4.37283%2017.3928%204.76658%2017.7866%205.24783%2017.7866H7.87283C8.35408%2017.7866%208.74783%2017.3928%208.74783%2016.9116Z'%20fill='%2318364D'/%3e%3c/svg%3e"
+                  alt="Trang chủ"
+                  class="cursor-pointer w-5 h-5 md:w-6 md:h-6"
+                />
+                <div class="px-[6px] md:px-[8px] text-[#656565]">/</div>
+                <div
+                  class="text-[#2BBEF9] text-[14px] sm:text-[15px] md:text-[16px] font-[400]"
+                >
+                  Tài khoản
+                </div>
+              </div>
+
+              <!-- Phần nội dung -->
+              <div class="mt-3 flex flex-row gap-3 sm:gap-4">
+                <div class="w-[35%] sm:w-[30%] md:w-1/5 min-w-[130px]">
+                  <div class="w-full">
+                    <!-- Tài khoản -->
+                    <div
+                      class="w-full bg-[#2BBEF9] rounded-[5px] flex items-center p-4 max-w-[230px] sm:max-w-full sm:p-3 min-h-[48px] box-border"
+                    >
+                      <img
+                        src="data:image/svg+xml,%3csvg%20width='30'%20height='27'%20viewBox='0%200%2030%2027'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M15.1387%204.40271C17.8247%204.40271%2020.0007%206.37273%2020.001%208.80505C20.001%2011.2375%2017.8248%2013.2084%2015.1387%2013.2084C12.4527%2013.2081%2010.2773%2011.2374%2010.2773%208.80505C10.2775%206.37287%2012.4529%204.40294%2015.1387%204.40271ZM15.1387%206.60388C13.802%206.60412%2012.7082%207.59462%2012.708%208.80505C12.708%2010.0157%2013.8019%2011.007%2015.1387%2011.0072C16.4757%2011.0072%2017.5703%2010.0158%2017.5703%208.80505C17.5701%207.59447%2016.4755%206.60388%2015.1387%206.60388Z'%20fill='white'/%3e%3cpath%20d='M5.41551%2022.0135V17.8591C5.41551%2016.2023%206.75866%2014.8591%208.41551%2014.8591H22.4705C24.1273%2014.8591%2025.4705%2016.2023%2025.4705%2017.8591V22.0135'%20stroke='white'%20stroke-width='2'/%3e%3c/svg%3e"
+                        alt="demo"
+                        class="w-[29px] h-[27px] flex-shrink-0"
+                      />
+                      <span
+                        class="text-[16px] font-[500] text-[#FFFFFF] ml-2 leading-snug"
+                      >
+                        Tài khoản
+                      </span>
+                    </div>
+
+                    <div class="mt-2 tag_01_left_chinh_sua_thong_tin text-left">
+                      <!-- Thông tin -->
+                      <div
+                        class="w-full rounded-[5px] flex items-center max-w-[230px] sm:max-w-full min-h-[48px]"
+                      >
+                        <img
+                          src="data:image/svg+xml,%3csvg%20width='22'%20height='22'%20viewBox='0%200%2022%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11%201.83331C12.1916%201.83331%2013.1999%202.60314%2013.585%203.66632H17.417C18.4252%203.6665%2019.25%204.49208%2019.25%205.50031V18.3333C19.25%2019.3415%2018.4252%2020.1661%2017.417%2020.1663H4.58301C3.57482%2020.1661%202.75%2019.3415%202.75%2018.3333V5.50031C2.75%204.49208%203.57482%203.6665%204.58301%203.66632H8.41504C8.80012%202.60314%209.80845%201.83331%2011%201.83331ZM11%2014.2083C9.16667%2014.2083%205.5%2015.2168%205.5%2017.0501V18.3333H16.5V17.0501C16.5%2015.2168%2012.8333%2014.2083%2011%2014.2083ZM11%207.33331C9.47833%207.33331%208.25%208.56165%208.25%2010.0833C8.25%2011.605%209.47833%2012.8333%2011%2012.8333C12.5217%2012.8333%2013.75%2011.605%2013.75%2010.0833C13.75%208.56165%2012.5217%207.33331%2011%207.33331ZM11%203.66632C10.4958%203.66632%2010.083%204.07915%2010.083%204.58331C10.083%205.08748%2010.4958%205.50031%2011%205.50031C11.5042%205.5003%2011.917%205.08748%2011.917%204.58331C11.917%204.07915%2011.5042%203.66632%2011%203.66632Z'%20fill='black'%20fill-opacity='0.54'/%3e%3c/svg%3e"
+                          alt="demo"
+                          class="w-[29px] h-[27px] flex-shrink-0"
+                        />
+                        <span
+                          class="text-[16px] font-[700] text-[#484554] ml-2 leading-snug"
+                        >
+                          Thông tin
+                        </span>
+                      </div>
+
+                      <div class="ml-2 md:ml-5 space-y-2 sm:space-y-4">
+                        <div
+                          class="bullet mt-4 md:mt-0 md:mb-0 text-[16px] font-[500] text-[#484554] custom-link py-2 min-h-[36px] cursor-pointer w-full"
+                        >
+                          Chỉnh sửa thông tin
+                        </div>
+
+                        <div
+                          class="bullet mt-4 md:mt-0 md:mb-0 text-[16px] font-[500] text-[#484554] custom-link py-2 min-h-[36px] cursor-pointer w-full"
+                        >
+                          Ví
+                        </div>
+                      </div>
+
+                      <!-- Quản lý đơn hàng -->
+                      <div
+                        class="w-full rounded-[5px] flex items-center max-w-[230px] sm:max-w-full mt-5 sm:mt-6 min-h-[48px]"
+                      >
+                        <img
+                          src="data:image/svg+xml,%3csvg%20width='22'%20height='22'%20viewBox='0%200%2022%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.4223%2016.958C8.43063%2016.958%209.25531%2017.7837%209.25531%2018.792C9.25513%2019.8002%208.43053%2020.625%207.4223%2020.625C6.41408%2020.625%205.59826%2019.8002%205.59808%2018.792C5.59808%2017.7837%206.41397%2016.958%207.4223%2016.958ZM16.5893%2016.958C17.5975%2016.9582%2018.4223%2017.7838%2018.4223%2018.792C18.4221%2019.8001%2017.5974%2020.6248%2016.5893%2020.625C15.5811%2020.625%2014.7653%2019.8002%2014.7651%2018.792C14.7651%2017.7837%2015.581%2016.958%2016.5893%2016.958ZM4.34222%202.29199C4.69056%202.29199%205.02075%202.49362%205.16742%202.81445L8.82465%2010.542H15.2602L18.3676%204.92285C18.6059%204.48285%2019.1649%204.3271%2019.6049%204.56543C20.0447%204.81298%2020.2097%205.37163%2019.9623%205.81152L16.8637%2011.4307C16.5521%2011.9989%2015.9475%2012.3749%2015.2602%2012.375H8.43109L7.4223%2014.208H17.5053C18.0095%2014.208%2018.4223%2014.6208%2018.4223%2015.125C18.4223%2015.6292%2018.0095%2016.042%2017.5053%2016.042H7.4223C6.02907%2016.042%205.14892%2014.5476%205.81781%2013.3193L7.05609%2011.082L3.75531%204.125H2.83929C2.33513%204.125%201.9223%203.71217%201.9223%203.20801C1.92248%202.70399%202.33524%202.29199%202.83929%202.29199H4.34222ZM12.0053%201.375C12.5095%201.375%2012.9223%201.78783%2012.9223%202.29199V4.125H14.7553C15.2595%204.125%2015.6723%204.53783%2015.6723%205.04199C15.6721%205.54601%2015.2594%205.95801%2014.7553%205.95801H12.9223V7.79199C12.9221%208.29601%2012.5094%208.70801%2012.0053%208.70801C11.5014%208.70783%2011.0895%208.2959%2011.0893%207.79199V5.95801H9.25531C8.7514%205.95783%208.33947%205.5459%208.33929%205.04199C8.33929%204.53793%208.75129%204.12518%209.25531%204.125H11.0893V2.29199C11.0893%201.78793%2011.5013%201.37518%2012.0053%201.375Z'%20fill='%23656565'/%3e%3c/svg%3e"
+                          alt="demo"
+                          class="w-[29px] h-[27px] flex-shrink-0"
+                        />
+                        <span
+                          class="text-[16px] font-[700] text-[#484554] ml-2 leading-snug"
+                        >
+                          Quản lý đơn hàng
+                        </span>
+                      </div>
+
+                      <div class="ml-2 md:ml-5 space-y-2 sm:space-y-4">
+                        <div
+                          class="bullet mt-4 md:mt-0 md:mb-0 text-[16px] font-[500] text-[#484554] custom-link py-2 min-h-[36px] cursor-pointer"
+                        >
+                          Đơn mua
+                        </div>
+
+                        <div
+                          class="bullet mt-4 md:mt-0 md:mb-0 text-[16px] font-[500] text-[#484554] custom-link py-2 min-h-[36px] cursor-pointer"
+                        >
+                          Lịch sử giao dịch
+                        </div>
+
+                        <div
+                          class="bullet mt-4 md:mt-0 md:mb-0 text-[16px] font-[500] text-[#484554] custom-link py-2 min-h-[36px] cursor-pointer"
+                        >
+                          Thanh toán
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-                <!-- Form (stacked dưới mobile/tablet, right trên desktop) -->
-                <div
-                  class="w-full lg:w-1/2 lg:pl-[35px] lg:pr-[150px] text-left flex justify-center"
-                >
-                  <div class="w-full max-w-[400px]">
+                <div class="w-[65%] sm:w-[70%] md:w-4/5 overflow-hidden">
+                  <div class="flex flex-col lg:flex-row items-start gap-6">
                     <div
-                      class="text-[22px] sm:text-[28px] font-[700] text-[#0455A4]"
+                      class="py-4 pr-3 pl-3 lg:pl-6 w-full custom-border-DCDCDC flex flex-col lg:flex-row rounded-[5px] box-border"
                     >
-                      ĐĂNG KÝ
-                    </div>
+                      <!-- Cột bên trái -->
+                      <div class="flex-1 w-full box-border">
+                        <!-- Tiêu đề -->
+                        <div
+                          class="text-[20px] md:text-[22px] lg:text-[24px] font-[700] text-[#0455A4] text-center md:text-left"
+                        >
+                          Thanh toán
+                        </div>
 
-                    <div
-                      class="text-[13px] sm:text-[14px] font-[300] text-[#000000] mt-1"
-                    >
-                      Chào mừng bạn đến với Nền tảng xuất bản Tạp chí điện tử
-                    </div>
+                        <!-- Bước 1 -->
+                        <div class="mt-4 text-left">
+                          <div
+                            class="text-[16px] font-[700] text-[#484554] pl-1"
+                          >
+                            1. Chọn phương thức thanh toán
+                          </div>
+                        </div>
 
-                    <div
-                      class="mt-[14px] sm:mt-[18px] text-[14px] sm:text-[16px] font-[500] text-[#717171]"
-                    >
-                      Đã có tài khoản? 
-                      <a href="#" class="text-link-register"
-                        >Đăng nhập</a
+                        <!-- Responsive grid cho mobile -->
+                        <div
+                          class="mt-4 w-full max-w-[540px] grid grid-cols-1 sm:grid-cols-2 gap-[10px]"
+                        >
+                          <div
+                            class="payment-option flex items-center rounded-[5px] min-w-[150px] tag_02_right_chinh_sua_thong_tin max-w-[270px] max-h-[50px] p-3 cursor-pointer transition-all duration-200 relative active"
+                          >
+                            <!-- Icon phương thức -->
+                            <img
+                              src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='icon/action/credit_card_24px'%3e%3cpath%20id='icon/action/credit_card_24px_2'%20d='M20%204C21.11%204%2022%204.89%2022%206V18C22%2019.11%2021.11%2020%2020%2020H4C2.89%2020%202%2019.11%202%2018L2.00977%206C2.00977%204.89%202.89%204%204%204H20ZM4%2017C4%2017.55%204.45%2018%205%2018H19C19.55%2018%2020%2017.55%2020%2017V12H4V17ZM4%206V8H20V6H4Z'%20fill='black'%20fill-opacity='0.54'/%3e%3c/g%3e%3c/svg%3e"
+                              alt="Thanh toán chuyển khoản"
+                              class="w-[24px] h-[24px] object-cover z-10"
+                            />
+
+                            <!-- Tên hiển thị -->
+                            <div
+                              class="md:ml-3 text-[14px] font-[600] text-[#161616]"
+                            >
+                              Thanh toán chuyển khoản
+                            </div>
+
+                            <!-- Icon check -->
+                            <div
+                              class="check-icon custom-hidden ml-auto w-[24px] h-[24px] rounded-full bg-[#2BBEF9] custom-flex"
+                            >
+                                <svg
+                                  width="14"
+                                  height="14"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M6 12L10 16L18 8"
+                                    stroke="white"
+                                    stroke-width="3"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  ></path>
+                                </svg>
+                            </div>
+                          </div>
+
+                          <div
+                            class="payment-option flex items-center rounded-[5px] min-w-[150px] tag_02_right_chinh_sua_thong_tin max-w-[270px] max-h-[50px] p-3 cursor-pointer transition-all duration-200 relative"
+                          >
+                            <!-- Icon phương thức -->
+                            <img
+                              src="data:image/svg+xml,%3csvg%20width='23'%20height='17'%20viewBox='0%200%2023%2017'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_52_188)'%3e%3cpath%20d='M22.7459%206.78326L19.0125%203.20133C18.4948%203.15814%2017.9574%203.45506%2017.5551%203.83295L7.98655%2012.8323C7.7052%2013.0968%207.4126%2013.275%207.11719%2013.3641L10.136%2016.2604C11.1573%2017.2402%2013.2027%2017.2402%2014.224%2016.2604L22.7431%208.087C23.0835%207.76039%2023.0835%207.10717%2022.7431%206.78056L22.7459%206.78326Z'%20fill='%23656565'/%3e%3cpath%20d='M12.6372%205.37964L7.51107%2010.2599C6.72049%2011.013%205.90458%2011.3936%205.08868%2011.3936C5.08024%2011.3936%205.06899%2011.3936%205.06055%2011.3936L6.56012%2012.8323C6.88085%2012.8674%207.19877%2012.7271%207.53639%2012.4085L17.105%203.40917C17.5101%203.02858%2017.9799%202.76135%2018.4413%202.65338L17.6339%201.87869C17.2935%201.55208%2016.6126%201.55208%2016.2722%201.87869L12.6906%205.31486C12.6766%205.33915%2012.6597%205.36074%2012.64%205.37964H12.6372Z'%20fill='%23656565'/%3e%3cpath%20d='M5.08884%2010.7916C5.73031%2010.7916%206.39428%2010.4704%207.06107%209.83341L7.17361%209.72813L4.42205%207.08015C3.77214%206.45392%203.41483%205.73861%203.38951%205.01251C3.367%204.35389%203.62021%203.73845%204.0985%203.27688C4.57679%202.8153%205.21826%202.57507%205.90193%202.59666C6.65875%202.62096%207.4015%202.96376%208.05141%203.58999C8.16113%203.69527%208.16113%203.86532%208.05141%203.97059C7.94168%204.07586%207.76443%204.07586%207.65471%203.97059C6.45618%202.818%205.17605%203.00155%204.49239%203.66018C3.80872%204.3161%203.6174%205.54966%204.81593%206.69955L7.57031%209.34754L8.14706%208.79689L5.71342%206.45662C5.36456%206.12191%204.78217%205.56046%204.99881%204.93693C5.04664%204.79657%205.207%204.72099%205.3533%204.76688C5.4996%204.81276%205.57838%204.96662%205.53055%205.10698C5.42364%205.4147%205.83722%205.81149%206.11012%206.07602L8.54657%208.41899L9.44969%207.56062L7.00761%205.21226C6.73471%204.95043%206.32113%204.55363%206.0004%204.65621C5.8541%204.70209%205.69654%204.62651%205.6459%204.48615C5.59807%204.34579%205.67685%204.19193%205.82315%204.14604C6.47306%203.9382%207.05544%204.49695%207.40431%204.83436L9.84639%207.18272L10.4231%206.63207L8.3018%204.59142C8.19208%204.48615%208.19208%204.3161%208.3018%204.21083C8.41153%204.10556%208.58878%204.10556%208.6985%204.21083L10.8227%206.25417L12.0831%205.053L7.06951%200.2456C6.72908%20-0.081012%206.04823%20-0.081012%205.7078%200.2456L0.255321%205.47678C-0.085107%205.8034%20-0.085107%206.45662%200.255321%206.78323L4.2448%2010.6108C4.52896%2010.7296%204.81031%2010.7916%205.08884%2010.7916Z'%20fill='%23656565'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_52_188'%3e%3crect%20width='23'%20height='17'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                              alt="Thanh toán qua VNPay"
+                              class="w-[24px] h-[24px] object-cover z-10"
+                            />
+
+                            <!-- Tên hiển thị -->
+                            <div
+                              class="md:ml-3 text-[14px] font-[600] text-[#161616]"
+                            >
+                              Thanh toán qua VNPay
+                            </div>
+
+                            <!-- Icon check -->
+                            <div
+                              class="check-icon custom-hidden ml-auto w-[24px] h-[24px] rounded-full bg-[#2BBEF9] custom-flex"
+                            >
+                              <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M6 12L10 16L18 8"
+                                  stroke="white"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+
+                          <div
+                            class="payment-option flex items-center rounded-[5px] min-w-[150px] tag_02_right_chinh_sua_thong_tin max-w-[270px] max-h-[50px] p-3 cursor-pointer transition-all duration-200 relative"
+                          >
+                            <!-- Icon phương thức -->
+                            <img
+                              src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='giao%20hang'%3e%3cpath%20id='icon/maps/local_shipping_24px'%20d='M15%204C16.1%204%2017%204.9%2017%206V8H19.5C19.81%208%2020.1098%208.15039%2020.2998%208.40039L22.5996%2011.4697C22.8596%2011.8197%2023%2012.2399%2023%2012.6699V16C23%2016.55%2022.55%2017%2022%2017H21C21%2018.66%2019.66%2020%2018%2020C16.34%2020%2015%2018.66%2015%2017H9C9%2018.66%207.66%2020%206%2020C4.34%2020%203%2018.66%203%2017C1.9%2017%201%2016.1%201%2015V6C1%204.9%201.9%204%203%204H15ZM6%2016C5.45%2016%205%2016.45%205%2017C5%2017.55%205.45%2018%206%2018C6.55%2018%207%2017.55%207%2017C7%2016.45%206.55%2016%206%2016ZM18%2016C17.45%2016%2017%2016.45%2017%2017C17%2017.55%2017.45%2018%2018%2018C18.55%2018%2019%2017.55%2019%2017C19%2016.45%2018.55%2016%2018%2016ZM17%2012H21.46L19.5%209.5H17V12Z'%20fill='%23656565'/%3e%3c/g%3e%3c/svg%3e"
+                              alt="Thanh toán khi nhận hàng"
+                              class="w-[24px] h-[24px] object-cover z-10"
+                            />
+
+                            <!-- Tên hiển thị -->
+                            <div
+                              class="md:ml-3 text-[14px] font-[600] text-[#161616]"
+                            >
+                              Thanh toán khi nhận hàng
+                            </div>
+
+                            <!-- Icon check -->
+                            <div
+                              class="check-icon custom-hidden ml-auto w-[24px] h-[24px] rounded-full bg-[#2BBEF9] custom-flex"
+                            >
+                              <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M6 12L10 16L18 8"
+                                  stroke="white"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Bước 2 -->
+                        <div class="mt-4 text-left">
+                          <div
+                            class="text-[16px] font-[700] text-[#484554] pl-1"
+                          >
+                            2. Thông tin nhận hàng
+                          </div>
+                        </div>
+
+                        <div class="mt-4 w-full max-w-[540px]">
+                          <div
+                            class="grid grid-cols-1 sm:grid-cols-2 gap-[10px] items-center"
+                          >
+                            <div class="w-full">
+                              <input
+                                name="name"
+                                type="text"
+                                placeholder="Nhập họ tên"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+
+                            <div class="w-full">
+                              <input
+                                name="phone"
+                                type="text"
+                                placeholder="Nhập số điện thoại"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+
+                            <div class="w-full">
+                              <input
+                                name="email"
+                                type="text"
+                                placeholder="Nhập email"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+
+                            <div class="w-full">
+                              <input
+                                name="address"
+                                type="text"
+                                placeholder="Nhập địa chỉ giao hàng"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+
+                            <div class="w-full relative">
+                              <select
+                                  name="city"
+                                  class="custom-arrow-rounded shift box-border !py-0 w-full h-[40px] appearance-none text-[14px] text-[#656565] focus:outline-none custom-input-login"
+                              
+                              >
+                                <option
+                                  value=""
+                                  disabled=""
+                                  selected=""
+                                  hidden=""
+                                  class="!text-[#656565]"
+                                >
+                                  Chọn Tỉnh / Thành phố
+                                </option>
+                                <option value="" class="text-[#18364D]">
+                                    Lựa chọn 1
+                                </option>
+                                <option value="" class="text-[#18364D]">
+                                    Lựa chọn 2
+                                </option>
+                                <option value="" class="text-[#18364D]">
+                                    Lựa chọn 3
+                                </option>
+                              </select>
+                            </div>
+
+                            <div class="w-full relative">
+                              <select
+                                  name="city"
+                                  class="custom-arrow-rounded shift box-border !py-0 w-full h-[40px] appearance-none text-[14px] text-[#656565] focus:outline-none custom-input-login"
+                              
+                              >
+                                <option
+                                  value=""
+                                  disabled=""
+                                  selected=""
+                                  hidden=""
+                                  class=""
+                                >
+                                  <span class="text-[#656565]">Chọn Phường / Xã</span>
+                                </option>
+                                <option value="" class="text-[#18364D]">
+                                    Lựa chọn 1
+                                </option>
+                                <option value="" class="text-[#18364D]">
+                                    Lựa chọn 2
+                                </option>
+                                <option value="" class="text-[#18364D]">
+                                    Lựa chọn 3
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Bước 3 -->
+                        <div class="mt-4 text-left">
+                          <div
+                            class="text-[16px] font-[700] text-[#484554] pl-1"
+                          >
+                            3. Xuất hóa đơn công ty
+                          </div>
+                        </div>
+
+                        <div class="mt-4 mb-4 w-full max-w-[540px]">
+                          <div
+                            class="grid grid-cols-1 sm:grid-cols-2 gap-[10px] items-center"
+                          >
+                            <div class="w-full">
+                              <input
+                                name="company"
+                                type="text"
+                                placeholder="Nhập tên công ty"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+
+                            <div class="w-full">
+                              <input
+                                name="email"
+                                type="text"
+                                placeholder="Nhập email"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+
+                            <div class="w-full">
+                              <input
+                                name="address"
+                                type="text"
+                                placeholder="Nhập địa chỉ"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+
+                            <div class="w-full">
+                              <input
+                                name="code"
+                                type="text"
+                                placeholder="Nhập mã số thuế"
+                                class="box-border border border-[#EDEDED] w-full h-[40px] px-3 rounded-[4px] text-[14px] text-[#161616] leading-[40px] min-w-[150px] placeholder:text-[#A5A5A5] focus:outline-none custom-input-login"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Cột bên phải -->
+                      <div
+                        class="rounded-[5px] bg-[#F6F6F6] px-4 py-3 w-full w-full md:w-[300px] text-left lg:ml-4 h-max mt-8 lg:mt-16 box-border"
                       >
-                    </div>
-
-                    <!-- Họ và tên -->
-                    <div class="mt-[24px] sm:mt-[18px] text-[14px] font-[600] text-[#484554]">
-                        Họ và tên <span class="text-[#E52B2F]">*</span>
-                    </div>
-                    <div class="mt-[10px] sm:mt-[14px] box-border">
-                        <input type="text" name="email" placeholder="Nhập họ và tên" class="w-full h-[36px] sm:h-[44px] custom-input-login box-border">
-                    </div>
-
-                    <!-- Email -->
-                    <div
-                      class="mt-[24px] sm:mt-[18px] text-[14px] font-[600] text-[#484554]"
-                    >
-                      Email <span class="text-[#E52B2F]">*</span>
-                    </div>
-                    <div class="mt-[10px] sm:mt-[14px] box-border">
-                      <input
-                        type="text"
-                        name="email"
-                        placeholder="Nhập email"
-                        class="w-full h-[36px] sm:h-[44px] custom-input-login box-border"
-                      />
-                    </div>
-
-                    <!-- Password -->
-                    <div class="mt-[24px] sm:mt-[18px] text-[14px] font-[600] text-[#484554]">
-                    Mật khẩu <span class="text-[#E52B2F]">*</span>
-                    </div>
-
-                    <div class="mt-[10px] sm:mt-[14px] relative w-full box-border password-toggle">  <!-- Thêm class show-password ở đây để hiển thị hiển thị mắt-->
-                    <input
-                        type="password"
-                        name="password"
-                        placeholder="Nhập mật khẩu"
-                        class="w-full h-[36px] sm:h-[44px] custom-input-login box-border"
-                    />
-
-                    <!-- Icon Mắt Mở -->
-                    <img
-                        src="data:image/svg+xml,%3Csvg%20width%3D%2219%22%20height%3D%2219%22%20viewBox%3D%220%200%2019%2019%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M9.49967%203.5625C13.458%203.5625%2016.8391%206.02458%2018.2087%209.5C16.8391%2012.9754%2013.458%2015.4375%209.49967%2015.4375C5.54148%2015.4374%202.16121%2012.9753%200.791667%209.5C2.16121%206.02468%205.54148%203.56264%209.49967%203.5625ZM9.49967%205.54199C7.31482%205.54217%205.54167%207.31511%205.54167%209.5C5.54167%2011.6849%207.31482%2013.4578%209.49967%2013.458C11.6847%2013.458%2013.4587%2011.685%2013.4587%209.5C13.4587%207.315%2011.6847%205.54199%209.49967%205.54199ZM9.49967%207.125C10.8138%207.125%2011.8747%208.18583%2011.8747%209.5C11.8747%2010.8142%2010.8138%2011.875%209.49967%2011.875C8.18566%2011.8748%207.12467%2010.8141%207.12467%209.5C7.12467%208.18594%208.18566%207.12518%209.49967%207.125Z%22%20fill%3D%22%23656565%22/%3E%3C/svg%3E"
-                        alt="eye-open"
-                        class="icon-eye absolute top-3 right-3 w-6 h-6 cursor-pointer"
-                    />
-
-                    <!-- Icon Mắt Đóng -->
-                    <img
-                        src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='icon/action/visibility_off_24px'%3e%3cpath%20id='icon/action/visibility_off_24px_2'%20d='M2.70996%203.13046C3.09996%202.74046%203.73988%202.74046%204.12988%203.13046L20.4404%2019.4596C20.8303%2019.8494%2020.8301%2020.4797%2020.4404%2020.8697C20.0504%2021.2597%2019.4203%2021.2597%2019.0303%2020.8697L16.3096%2018.15C14.9697%2018.6699%2013.5199%2018.9703%2012%2018.9703C7.0001%2018.9703%202.73007%2015.8602%201%2011.4703C1.76994%209.50045%203.05986%207.80031%204.67969%206.51035L2.70996%204.53964C2.32024%204.14971%202.32028%203.52042%202.70996%203.13046ZM7.49023%209.32968C7.18023%209.96968%207%2010.7003%207%2011.4703C7.00017%2014.2302%209.24011%2016.4703%2012%2016.4703C12.7698%2016.4703%2013.4898%2016.2902%2014.1396%2015.9703L12.5703%2014.4C12.3803%2014.44%2012.2%2014.4703%2012%2014.4703C10.3401%2014.4703%209.00017%2013.1302%209%2011.4703C9%2011.2703%209.02957%2011.08%209.05957%2010.9L7.49023%209.32968ZM12%203.97031C16.9998%203.97031%2021.2699%207.07983%2023%2011.4596C22.31%2013.2195%2021.2103%2014.7598%2019.8203%2015.9898L16.7607%2012.9303C16.9007%2012.4704%2017%2011.9802%2017%2011.4703C17%208.71031%2014.76%206.47031%2012%206.47031C11.4901%206.47035%2011.0002%206.5696%2010.5303%206.70956L8.36035%204.53964C9.51021%204.1697%2010.7302%203.97034%2012%203.97031Z'%20fill='black'%20fill-opacity='0.54'/%3e%3c/g%3e%3c/svg%3e"
-                        alt="eye-slash"
-                        class="icon-eye-slash  absolute top-3 right-3 w-6 h-6 cursor-pointer"
-                    />
-                    </div>
-
-
-                    <!-- RePassword -->
-                    <div
-                      class="mt-[24px] sm:mt-[18px] text-[14px] font-[600] text-[#484554]"
-                    >
-                      Nhập lại mật khẩu <span class="text-[#E52B2F]">*</span>
-                    </div>
-                    <div class="mt-[10px] sm:mt-[14px] relative w-full box-border password-toggle">  <!-- Thêm class show-password ở đây để hiển thị hiển thị mắt-->
-                    <input
-                        type="password"
-                        name="password"
-                        placeholder="Nhập lại mật khẩu"
-                        class="w-full h-[36px] sm:h-[44px] custom-input-login box-border"
-                    />
-
-                    <!-- Icon Mắt Mở -->
-                    <img
-                        src="data:image/svg+xml,%3Csvg%20width%3D%2219%22%20height%3D%2219%22%20viewBox%3D%220%200%2019%2019%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M9.49967%203.5625C13.458%203.5625%2016.8391%206.02458%2018.2087%209.5C16.8391%2012.9754%2013.458%2015.4375%209.49967%2015.4375C5.54148%2015.4374%202.16121%2012.9753%200.791667%209.5C2.16121%206.02468%205.54148%203.56264%209.49967%203.5625ZM9.49967%205.54199C7.31482%205.54217%205.54167%207.31511%205.54167%209.5C5.54167%2011.6849%207.31482%2013.4578%209.49967%2013.458C11.6847%2013.458%2013.4587%2011.685%2013.4587%209.5C13.4587%207.315%2011.6847%205.54199%209.49967%205.54199ZM9.49967%207.125C10.8138%207.125%2011.8747%208.18583%2011.8747%209.5C11.8747%2010.8142%2010.8138%2011.875%209.49967%2011.875C8.18566%2011.8748%207.12467%2010.8141%207.12467%209.5C7.12467%208.18594%208.18566%207.12518%209.49967%207.125Z%22%20fill%3D%22%23656565%22/%3E%3C/svg%3E"
-                        alt="eye-open"
-                        class="icon-eye absolute top-3 right-3 w-6 h-6 cursor-pointer"
-                    />
-
-                    <!-- Icon Mắt Đóng -->
-                    <img
-                        src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='icon/action/visibility_off_24px'%3e%3cpath%20id='icon/action/visibility_off_24px_2'%20d='M2.70996%203.13046C3.09996%202.74046%203.73988%202.74046%204.12988%203.13046L20.4404%2019.4596C20.8303%2019.8494%2020.8301%2020.4797%2020.4404%2020.8697C20.0504%2021.2597%2019.4203%2021.2597%2019.0303%2020.8697L16.3096%2018.15C14.9697%2018.6699%2013.5199%2018.9703%2012%2018.9703C7.0001%2018.9703%202.73007%2015.8602%201%2011.4703C1.76994%209.50045%203.05986%207.80031%204.67969%206.51035L2.70996%204.53964C2.32024%204.14971%202.32028%203.52042%202.70996%203.13046ZM7.49023%209.32968C7.18023%209.96968%207%2010.7003%207%2011.4703C7.00017%2014.2302%209.24011%2016.4703%2012%2016.4703C12.7698%2016.4703%2013.4898%2016.2902%2014.1396%2015.9703L12.5703%2014.4C12.3803%2014.44%2012.2%2014.4703%2012%2014.4703C10.3401%2014.4703%209.00017%2013.1302%209%2011.4703C9%2011.2703%209.02957%2011.08%209.05957%2010.9L7.49023%209.32968ZM12%203.97031C16.9998%203.97031%2021.2699%207.07983%2023%2011.4596C22.31%2013.2195%2021.2103%2014.7598%2019.8203%2015.9898L16.7607%2012.9303C16.9007%2012.4704%2017%2011.9802%2017%2011.4703C17%208.71031%2014.76%206.47031%2012%206.47031C11.4901%206.47035%2011.0002%206.5696%2010.5303%206.70956L8.36035%204.53964C9.51021%204.1697%2010.7302%203.97034%2012%203.97031Z'%20fill='black'%20fill-opacity='0.54'/%3e%3c/g%3e%3c/svg%3e"
-                        alt="eye-slash"
-                        class="icon-eye-slash  absolute top-3 right-3 w-6 h-6 cursor-pointer"
-                    />
-                    </div>
-
-                    <!-- Điều khoản sử dụng -->
-                    <div class="mt-[24px] sm:mt-[16px] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                    <div class="flex items-center">
-                        <label class="custom-checkbox custom-checkbox-chi-tiet-tcdt">
-                        <input type="checkbox" checked="">
-                        <span class="checkmark"></span>
-                        </label>
-                        <div class="md:whitespace-nowrap ml-2 pt-1 text-[14px] font-[300] text-[#000000]">
-                        Tôi đồng ý với các 
-                            <span class="text-[14px] font-[600] text-[#000000] text-link-policy">
-                            Điều khoản sử dụng 
-                            </span>
-                        và 
-                            <span class="text-[14px] font-[600] text-[#000000] text-link-policy">
-                            Chính sách bảo mật
-                            </span>
+                        <div
+                          class="text-[18px] font-[700] text-[#0455A4] custom-border-bottom-DCDCDC pb-3 mb-3"
+                        >
+                          Thông tin thanh toán
                         </div>
-                    </div>
-                    </div>
 
-                    <!-- Button + social -->
-                    <!-- Button + social -->
-                    <div class="mt-6">
-                        <div class="custom-btn-blue-login w-full sm:w-auto">
-                            <span>Đăng ký</span>
+                        <div
+                          class="flex justify-between items-center text-[14px] text-[#000000] mt-3"
+                        >
+                          <div>Tạm tính</div>
+                          <div>72.000đ</div>
                         </div>
-                    </div>
+                        <div
+                          class="flex justify-between items-center text-[14px] text-[#000000] mt-3"
+                        >
+                          <div>Giảm giá</div>
+                          <div>0đ</div>
+                        </div>
+                        <div
+                          class="flex justify-between items-center text-[14px] text-[#000000] mt-3"
+                        >
+                          <div>Phí vận chuyển</div>
+                          <div>0đ</div>
+                        </div>
 
+                        <div class="mt-3 text-[13px] text-[#656565]">
+                          Đối với sách giấy, phí ship tính theo đơn (không giới
+                          hạn số lượng) theo khu vực: miền Bắc 20k, miền Trung
+                          25k, miền Nam 35k.
+                        </div>
+
+                        <div class="custom-border-bottom-DCDCDC mt-3 mb-3"></div>
+
+                        <div
+                          class="flex justify-between items-center text-[14px] text-[#000000]"
+                        >
+                          <div>Tổng cộng</div>
+                          <div class="text-[16px] font-[700] text-[#0455A4]">
+                            72.000đ
+                          </div>
+                        </div>
+
+                        <div class="mt-5 box-border">
+                          <div
+                            class="flex justify-center w-full !min-w-[100px] px-3 custom-btn-blue-login box-border"
+                          >
+                            <!-- Hiển thị ở màn hình >= md -->
+                            <div
+                              class="hidden md:block text-[18px] font-[500] text-white py-1"
+                            >
+                              Tiếp tục thanh toán
+                            </div>
+
+                            <!-- Hiển thị ở màn hình < md -->
+                            <div
+                              class="block md:hidden text-[18px] font-[500] text-white py-1"
+                            >
+                              Thanh toán
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </main>
           </div>
       </main>
       

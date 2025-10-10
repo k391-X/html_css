@@ -1,6 +1,9 @@
 import HomeIcon from "../../assets/home_icon.svg";
 import Tag01 from "./components/tag_01_gio_hang";
 import Tag02 from "./components/tag_02_thanh_toan.js";
+import Layer from "../../assets/icons/Layer_1.svg";
+import Layer12 from "../../assets/icons/Layer_12.svg";
+import Readbook from "../../assets/icons/read-book-icon.svg";
 
 export default function NewsList() {
   return `
@@ -8,7 +11,19 @@ export default function NewsList() {
       <!-- Thanh điều hướng -->
       <div class="w-full flex items-center px-3 sm:px-4 py-2 md:py-3">
         <img 
-          src="${HomeIcon}" 
+          src="${Layer}" 
+          alt="Trang chủ" 
+          class="cursor-pointer w-5 h-5 md:w-6 md:h-6"
+        />
+
+                <img 
+          src="${Layer12}" 
+          alt="Trang chủ" 
+          class="cursor-pointer w-5 h-5 md:w-6 md:h-6"
+        />
+
+                <img 
+          src="${Readbook}" 
           alt="Trang chủ" 
           class="cursor-pointer w-5 h-5 md:w-6 md:h-6"
         />
