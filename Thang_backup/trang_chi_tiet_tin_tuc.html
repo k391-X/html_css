@@ -44,13 +44,19 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="" style="text-transform: inherit;">
-                                    <img src="assets/images/flag_vi.png" alt="">
-                                    <span class="fz-13">Tiếng Việt</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                        <path d="M10.5832 6L7.99657 8.58666L5.4099 6C5.28535 5.87516 5.11625 5.80501 4.9399 5.80501C4.76356 5.80501 4.59446 5.87516 4.4699 6C4.2099 6.26 4.2099 6.68 4.4699 6.94L7.5299 10C7.7899 10.26 8.2099 10.26 8.4699 10L11.5299 6.94C11.7899 6.68 11.7899 6.26 11.5299 6C11.2699 5.74667 10.8432 5.74 10.5832 6Z" fill="black" fill-opacity="0.54"/>
-                                    </svg>
-                                </a>
+                                <div class="uk-inline" style="text-transform: inherit">
+                                    <div class="fz-13 uk-flex uk-flex-middle" style="gap:3px;">
+                                        <img src="assets/images/flag_vi.png" alt="">
+                                        <span>Tiếng Việt</span>
+                                        <span uk-drop-parent-icon></span>
+                                    </div>
+                                    <div class="uk-dropdown header__lang__dropnav" uk-drop="mode: hover">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Tiếng Việt</a></li>
+                                            <li><a href="#">English</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -62,8 +68,8 @@
                 <div uk-navbar>
 
                     <div class="uk-navbar-left">
-
-                        <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">
+                        <a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#"></a>
+                        <a class="uk-navbar-item uk-logo uk-visible@s" href="#" aria-label="Back to Home">
                             <div class="uk-flex-middle uk-grid-small" uk-grid>
                                 <div class="uk-width-auto@s uk-text-center">
                                     <img src="assets/images/Logo-1-1024x625-1.png" alt="">
@@ -76,6 +82,12 @@
 
                     </div>
 
+                    <div class="uk-navbar-center uk-hidden@s">
+                        <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">
+                            <img src="assets/images/Logo-1-1024x625-1.png" alt="">
+                        </a>
+                    </div>
+
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item uk-visible@s">
                             <form class="header__formSearch uk-search uk-search-default uk-search-medium">
@@ -84,7 +96,7 @@
                             </form>
                         </div>
                         <ul class="uk-navbar-nav header__navRight">
-                            <li>
+                            <li class="uk-visible@s">
                                 <a href="#">
                                     <div class="uk-flex uk-flex-column uk-flex-middle">
                                         <div class="my-class">
@@ -96,7 +108,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <li>
+                            <li class="uk-visible@s">
                                 <a href="#">
                                     <div class="uk-flex uk-flex-column uk-flex-middle">
                                         <div class="my-class">
@@ -115,6 +127,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                                                 <path d="M7.42236 16.958C8.4307 16.958 9.25537 17.7837 9.25537 18.792C9.25519 19.8002 8.43059 20.625 7.42236 20.625C6.41414 20.625 5.59832 19.8002 5.59814 18.792C5.59814 17.7837 6.41403 16.958 7.42236 16.958ZM16.5894 16.958C17.5975 16.9582 18.4224 17.7838 18.4224 18.792C18.4222 19.8001 17.5974 20.6248 16.5894 20.625C15.5811 20.625 14.7653 19.8002 14.7651 18.792C14.7651 17.7837 15.581 16.958 16.5894 16.958ZM4.34229 2.29199C4.69062 2.29199 5.02081 2.49362 5.16748 2.81445L8.82471 10.542H15.2603L18.3677 4.92285C18.606 4.48285 19.165 4.3271 19.605 4.56543C20.0447 4.81298 20.2097 5.37163 19.9624 5.81152L16.8638 11.4307C16.5522 11.9989 15.9476 12.3749 15.2603 12.375H8.43115L7.42236 14.208H17.5054C18.0095 14.208 18.4224 14.6208 18.4224 15.125C18.4224 15.6292 18.0095 16.042 17.5054 16.042H7.42236C6.02913 16.042 5.14898 14.5476 5.81787 13.3193L7.05615 11.082L3.75537 4.125H2.83936C2.33519 4.125 1.92236 3.71217 1.92236 3.20801C1.92254 2.70399 2.3353 2.29199 2.83936 2.29199H4.34229ZM12.0054 1.375C12.5095 1.375 12.9224 1.78783 12.9224 2.29199V4.125H14.7554C15.2595 4.125 15.6724 4.53783 15.6724 5.04199C15.6722 5.54601 15.2594 5.95801 14.7554 5.95801H12.9224V7.79199C12.9222 8.29601 12.5094 8.70801 12.0054 8.70801C11.5015 8.70783 11.0895 8.2959 11.0894 7.79199V5.95801H9.25537C8.75146 5.95783 8.33953 5.5459 8.33936 5.04199C8.33936 4.53793 8.75135 4.12518 9.25537 4.125H11.0894V2.29199C11.0894 1.78793 11.5014 1.37518 12.0054 1.375Z" fill="#656565"/>
                                             </svg>
+                                            <span class="header__cart__badge fz-9 exo-2-500 uk-badge uk-position-top-right uk-position-small">0</span>
                                         </div>
                                         <div class="uk-navbar-subtitle fz-13">Giỏ hàng</div>
                                     </div>
@@ -127,32 +140,48 @@
                 </div>
             </div>
         </nav>
-        <div class="uk-container">
-            <nav class="uk-navbar-container header__navbar uk-light uk-flex-center" uk-navbar>
-                <div class="uk-navbar-left">
+        <nav uk-sticky class="header__navbarContainer uk-navbar-container header__navbar uk-flex-center">
+            <div class="uk-container">
+                <div class="uk-flex-center"  uk-navbar>
+                    <div class="uk-navbar-left">
+                        <ul class="uk-navbar-nav" uk-light>
+                            <li class="uk-active"><a href="#" uk-icon="icon: home"></a></li>
+                            <li>
+                                <a href="#">Giới thiệu <span uk-drop-parent-icon></span></a>
+                                <div class="uk-navbar-dropdown" uk-dropdown="offset: 1">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="#">Giới thiệu chung</a></li>
+                                        <li>
+                                            <a href="#">Cơ cấu tổ chức</a>
+                                            <div class="uk-padding-remove" uk-dropdown="pos: right-top; animation: uk-animation-slide-bottom-small; duration: 300;offset: 1;">
+                                                <ul class="uk-nav uk-dropdown-nav">
+                                                    <li><a href="#">Tin mới</a></li>
+                                                    <li><a href="#">Câu chuyện văn hóa</a></li>
+                                                    <li><a href="#">Văn hóa EVNSPC với Khách hàng</a></li>
+                                                    <li><a href="#">Gương điển hình</a></li>
+                                                    <li><a href="#">Sự kiện văn hóa</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Liên đoàn lao động tỉnh</a></li>
+                                        <li><a href="#">LĐLĐ Huyện – Thành – Thị</a></li>
+                                        <li><a href="#">Công đoàn ngành</a></li>
+                                        <li><a href="#">CĐCS quản lý trực tiếp</a></li>
+                                        <li><a href="#">Công đoàn phối hợp quản lý</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Số hiện tại</a></li>
+                            <li><a href="#">Tạp chí điện tử</a></li>
+                            <li><a href="#">Tác giả - Phản biện</a></li>
+                            <li><a href="#">Ai trợ lý ảo hỗ trợ</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
 
-                    <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="#" uk-icon="icon: home"></a></li>
-                        <li>
-                            <a href="#">Giới thiệu</a>
-                            <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="#">Active</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li><a href="#">Item</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="#">Số hiện tại</a></li>
-                        <li><a href="#">Tạp chí điện tử</a></li>
-                        <li><a href="#">Tác giả - Phản biện</a></li>
-                        <li><a href="#">Ai trợ lý ảo hỗ trợ</a></li>
-                        <li><a href="#">Liên hệ</a></li>
-                    </ul>
-
+                    </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     
     <div class="uk-container">
@@ -787,6 +816,7 @@
       </div>
     </main>
     </div>
+
     <footer class="footer uk-position-relative">
         <div class="uk-position-cover footer__bg uk-background-cover" style="--pathImage: url(assets/images/image471.png)"></div>
         <div class="uk-position-relative">
